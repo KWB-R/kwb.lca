@@ -4,21 +4,13 @@
 [![Project Status](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
 [![CRAN_Status_Badge](https://www.r-pkg.org/badges/version/kwb.lca)]()
 
-# kwb.lca
-
 This package contains a function to read LCA parameters from an Excel 
 file that was sent to and received from a project partner. The parameters 
 are read into a data frame. Another function can be used to write the dataframe into an Excel file with different sheets and data.
 
 ## Installation
 
-```r
+```{r echo = TRUE, eval = FALSE}
 #install.packages("remotes", repos = "https://cloud.r-project.org")
 remotes::install_github("KWB-R/kwb.lca")
 ```
-
-## Documentation
-
-Release: [https://kwb-r.github.io/kwb.lca](https://kwb-r.github.io/kwb.lca)
-
-Development: [https://kwb-r.github.io/kwb.lca/dev](https://kwb-r.github.io/kwb.lca/dev)
