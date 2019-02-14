@@ -1,12 +1,18 @@
 Package: kwb.lca
-Title: Functions to Be Used in Life Cycle Assessment (LCA) Projects
-Version: 0.1.0.9000
+Title: Functions to Be Used in Life Cycle Assessment (LCA)
+    Projects
+Version: 0.0.0.9000
 Authors@R: 
     c(person(given = "Hauke",
              family = "Sonnenberg",
              role = c("aut", "cre"),
              email = "hauke.sonnenberg@kompetenz-wasser.de",
              comment = c(ORCID = "0000-0001-9134-2871")),
+      person(given = "Michael",
+             family = "Rustler",
+             role = "ctb",
+             email = "michael.rustler@kompetenz-wasser.de",
+             comment = c(ORCID = "0000-0003-0647-7726")),
       person(given = "Kompetenzzentrum Wasser Berlin gGmbH (KWB)",
              role = "cph"))
 Description: This package contains a function to read LCA.
@@ -14,23 +20,24 @@ Description: This package contains a function to read LCA.
     project partner. The parameters are read into a data frame. Another
     function can be used to write the dataframe into an Excel file with
     different sheets and data.
+License: MIT + file LICENSE
+URL: https://github.com/KWB-R/kwb.lca
+BugReports: https://github.com/KWB-R/kwb.lca/issues
 Imports: 
     kwb.utils,
     kwb.readxl,
     magrittr,
     openxlsx
-Remotes: 
-    github::kwb-r/kwb.utils,
-    github::kwb-r/kwb.readxl
 Suggests: 
     covr,
     knitr,
     rmarkdown,
     testthat
-License: MIT + file LICENSE
+VignetteBuilder: 
+    knitr
+Remotes: 
+    github::kwb-r/kwb.utils,
+    github::kwb-r/kwb.readxl
 Encoding: UTF-8
 LazyData: true
-VignetteBuilder: knitr
-URL: https://github.com/KWB-R/kwb.lca
-BugReports: https://github.com/KWB-R/kwb.lca/issues
-RoxygenNote: 6.1.0
+RoxygenNote: 6.1.1
