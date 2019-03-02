@@ -10,6 +10,9 @@ authors:
 template:
   params:
     bootswatch: cerulean
+    docsearch:
+      api_key: 661a2d89c8e4c5dc9c198ed20bcc1c9b
+      index_name: kwb_lca
 development:
   mode: auto
 
